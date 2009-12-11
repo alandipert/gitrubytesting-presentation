@@ -12,7 +12,7 @@
 
 * bff's
 * made some software
-* into ruby
+* &quot;serial language enthusiasts&quot;
 
 !SLIDE
 
@@ -195,6 +195,10 @@
 # what is testing?
 
 "a particular process or method for trying or assessing"
+
+!SLIDE
+
+![](images/testsyo.png)
 
 !SLIDE
 
