@@ -16,6 +16,18 @@
 
 !SLIDE
 
+# what we're talking about
+
+* version control with git
+* automated testing with ruby
+
+!SLIDE
+
+# oh btw
+## if you have questions, tweet with hashtag #gitrubytalk
+
+!SLIDE
+
 ![](images/pdp11-unix.jpg)
 
 # technology of teamwork
@@ -274,7 +286,7 @@
 
 !SLIDE
 
-# assertions
+# assetrions
 ## common assertions
 * assert(expression) (determines if expression is true)
 * assert_equal("foobar", "foo" + "bar")
@@ -289,3 +301,10 @@
 * repeat for every test method
 * repeat for every test case
 
+!SLIDE
+
+# good times to write a test case
+* whenever you'd use the shell to try something out
+* whenever a bug is found
+* when designing an interface
+* all the time (google for: TATFT)
