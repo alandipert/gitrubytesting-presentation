@@ -16,6 +16,18 @@
 
 !SLIDE
 
+# what we're talking about
+
+* version control with git
+* automated testing with ruby
+
+!SLIDE
+
+# oh btw
+## if you have questions, tweet with hashtag #gitrubytalk
+
+!SLIDE
+
 ![](images/pdp11-unix.jpg)
 
 # technology of teamwork
