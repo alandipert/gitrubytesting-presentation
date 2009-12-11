@@ -180,3 +180,34 @@
 * git is worth looking into
 * simple, powerful, extensible
 * easy to get started, see github.com
+
+!SLIDE
+
+# testing your codez
+
+* what it is
+* what it do
+* how it is
+* when to use
+
+!SLIDE
+
+# what is testing?
+
+"a particular process or method for trying or assessing"
+
+!SLIDE
+
+# popular processes
+
+* Ctrl + F5
+* Alt+Tab Up+Enter
+* "Yo, try it again"
+
+!SLIDE
+
+# better processes
+
+* Test::Unit
+* Autotest
+
