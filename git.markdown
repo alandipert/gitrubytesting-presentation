@@ -275,15 +275,29 @@ end
 
 * defines your general testing stragegy
 * usually mapped to a single class
-* runs the "setup" method + ONE test method (per test method)
+* encapsulates the desired behaviour of our class
+
+!SLIDE
 
 # test method
 
 * runs a method in vaccuum environment
 * asserts an expected outcome
 
+!SLIDE
+
 # assertions
+## common assertions
+* assert(expression) (determines if expression is true)
+* assert_equal("foobar", "foo" + "bar")
+* assert_instance_of(String, "foobar")
 
-* tests some 
+!SLIDE
 
+# how a test suite runs
+* runs the "setup" method in the testcase
+* runs a test method
+* runs the "teardown" method in the testcase
+* repeat for every test method
+* repeat for every test case
 
