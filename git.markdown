@@ -242,6 +242,10 @@
 
 !SLIDE
 
+![](images/devflow.png)
+
+!SLIDE
+
 # how to test
 ## anatomy of Test::Unit
 
