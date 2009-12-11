@@ -1,12 +1,12 @@
 SLIDEDOWN=slidedown
-MD_FILES=git.md
+MD_FILES=git.markdown
 
-all: $(MD_FILES:.md=.html)
+all: $(MD_FILES:.markdown=.html)
 
 clean:
-	rm -f $(MD_FILES:.md=.html)
+	rm -f $(MD_FILES:.markdown=.html)
 
-.SUFFIXES: .md .html
+.SUFFIXES: .markdown .html
 
-.md.html:
+.markdown.html:
 	$(SLIDEDOWN) $< > $@
