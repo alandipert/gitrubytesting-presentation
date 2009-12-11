@@ -1,8 +1,8 @@
 !SLIDE
 
-# managing code and complexity
+# managing code and quality
 ## with git and testing
-### alan dipert &amp; julio capote
+### @superpants5000 &amp; @capotej 
 
 !SLIDE
 
@@ -227,7 +227,6 @@
 # what's better?
 
 * Test::Unit
-* Autotest
 
 !SLIDE
 
@@ -256,6 +255,7 @@
 * test case
 * test methods
 * assertions
+* setup and teardown methods
 
 !SLIDE
 
@@ -273,7 +273,7 @@
 
 # test method
 
-* runs a method in vaccuum environment
+* runs a method in vacuum environment
 * asserts an expected outcome
 
 !SLIDE
@@ -300,3 +300,7 @@
 * whenever a bug is found
 * when designing an interface
 * all the time (google for: TATFT)
+
+!SLIDE
+
+# q &amp; a!
