@@ -2,3 +2,4 @@
 *.swo
 *.session
 *.html
+.DS_Store
