@@ -87,7 +87,7 @@
 
 * labels for particular commits
 * like svn tags
-* HEAD a special ref to a ref, marks beginning
+* HEAD a special ref to a ref, marks behomh9ojginning
 
 !SLIDE
 
@@ -200,14 +200,90 @@
 
 # popular processes
 
-* Ctrl + F5
+* F5
 * Alt+Tab Up+Enter
 * "Yo, try it again"
 
 !SLIDE
 
-# better processes
+# why this sucks
+* gets old, fast
+* explicit setup of state
+* mix of "test" code and real code
+* its not permanent
+
+!SLIDE
+
+# what's better?
 
 * Test::Unit
 * Autotest
+
+!SLIDE
+
+# why is it better?
+* guides our design from the top down, rather than bottom up
+* best docs money can buy
+* permanent knowledge of functionality
+
+!SLIDE
+
+# testing strategy
+
+* write some tests
+* run your tests
+* make them pass
+
+!SLIDE
+
+# how to test
+## anatomy of Test::Unit
+
+* test case
+* test methods
+* assertions
+
+!SLIDE
+@@@ ruby
+#the class were testing
+class Adder
+   def initialize(x,y)
+      @x = x
+      @y = y
+   end
+
+   def add
+     return @x + @y
+   end
+end
+
+#our test case
+require 'test/unit'
+
+class AdderTest < Test::Unit::TestCase
+   def test_addition
+      calc = Adder.new(2,2)
+      result = calc.add
+      assert_equal(4, result)
+   end
+end
+@@@
+
+!SLIDE
+
+# a test case
+
+* defines your general testing stragegy
+* usually mapped to a single class
+* runs the "setup" method + ONE test method (per test method)
+
+# test method
+
+* runs a method in vaccuum environment
+* asserts an expected outcome
+
+# assertions
+
+* tests some 
+
 
