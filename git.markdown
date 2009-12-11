@@ -95,14 +95,6 @@
 
 !SLIDE
 
-# refs
-
-* labels for particular commits
-* like svn tags
-* HEAD a special ref to a ref, marks behomh9ojginning
-
-!SLIDE
-
 ![](images/git-repo-5.png)
 
 !SLIDE
