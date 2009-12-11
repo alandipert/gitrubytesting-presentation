@@ -1,0 +1,30 @@
+a, a:visited, a:link {
+  color: beige;
+}
+
+body {
+  font-family:'Anonymous Pro', helvetica, arial, sans-serif;
+  color: eee;
+}
+
+
+pre {
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  padding: 20px;
+  font-size: 80%;
+  display:inline-block;
+  margin-right: 20px;
+}
+
+#slides {
+  background: url('images/bg.png') repeat;
+}
+
+#track > div .content {
+  background:#222222 none repeat scroll 0 0;
+  margin: 0 0 0 64px;
+  padding-left: 20px;
+}
