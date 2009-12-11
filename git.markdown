@@ -57,7 +57,7 @@
 
 !SLIDE
 
-# git-wtf
+# essentials
 
 * low level content tracker (SHA1/DAG/etc)
 * distributed
@@ -209,6 +209,8 @@
 * "Yo, try it again"
 
 !SLIDE
+
+![](images/kittcar.jpg)
 
 # better processes
 
